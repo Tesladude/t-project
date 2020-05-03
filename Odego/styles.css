@@ -1,0 +1,251 @@
+
+
+
+ body{
+     margin: 0px;
+     font-family: 'Lato', sans-serif;
+     color: black;
+ }
+
+/* header + image + search */
+.topSection{
+    padding-top: 54px;
+    padding-left: 189px;
+    padding-right: 189px;
+    background-image: url(../odego/img/Hero.png);
+    width: auto;
+    height: 962px;
+    background-repeat: no-repeat; 
+  background-size: cover;
+    color:white;
+}
+.odego{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+header ul li  {
+
+    display: inline-flex;
+}
+header ul a {
+    margin-left: 82px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.75;
+}
+
+.greeting {
+    margin: 0px;
+    margin-bottom: 21px;
+    font-weight: 500;
+    font-size: 50px;
+    width: 619px;
+}
+.introInf{
+    font-size: 16px;
+    line-height: 24px;
+    width: 546px;
+    margin-bottom: 54px;
+}
+
+/* search inputs */
+fieldset{
+    border: 0ch;
+    padding: 0;
+}
+.input-holder{
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchForm{
+    background-color: transparent;
+    background-image: url(/img/svg/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+}
+.searchForm::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+}
+.searchForm-submit{
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+    background: #1B7DFF;
+    border: 0;
+}
+button:hover {
+    background: #05326e;
+    opacity: .95;
+}
+
+/* main content */
+
+.mainContent {
+    background: white;
+    height: 2000px;
+}
+
+/* 
+benefits of This thing */
+.benefits{
+    background: white;
+    color:black;
+    max-width: 1262px;
+    height: auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: absolute;
+    justify-content:space-between;
+    margin: 0 89px;
+    top:739px;
+}
+.benefits .title{
+    margin: 93px 100px 0 100px;
+    font-weight: 500;
+}
+.ben3{
+    display: inline-flex;
+    margin: 120px 45px 111px 45px;
+}
+.piece1 h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.piece1 p{
+    font-size: 16px;
+}
+.piece1 a{
+    color: #006DFE;
+    text-decoration: none;
+}
+.arr {
+    padding-left: 26px;
+}
+.piece1 {
+    margin: 0 55px ;
+}
+/* 
+picture  section */
+
+.nexttrip{
+    max-width: 1262px;
+    height: auto;
+    position: relative;
+    top: 563px;
+    margin: 0 auto;
+}
+.titleNextTrip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 28px;
+}
+
+.nextpics {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.im1{
+    width: 619px;
+    height: 354px;
+}
+.im2{
+    width: 632px;
+    height: 354px;
+}
+.im3{
+    width: 415px;
+    height: 283px;
+}
+.im4{
+    width: 415px;
+    height: 283px;
+}
+.im5{
+    width: 415px;
+    height: 283px;
+}
+
+
+ /* featured places */
+
+ .featuredPlaces{
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     top: 675px;
+     max-width: 1220px;
+     margin: 0 auto;
+ }
+
+ .featuredPlaces div{
+     width: 519px;
+     display: inline-flex;
+     flex-direction: column;
+     position: relative;
+     top: 55px;
+ }
+ .featuredPlaces #title{
+    margin-bottom: 85px;
+    Font-size: 30px;
+    Line-height: 40px;
+ }
+ .featuredPlaces #information{
+     margin-bottom: 58px;
+     Font-size: 16px;
+    Line-height: 24px;
+ }
+ 
+ .featuredPlaces a{
+    text-decoration: none;
+ }
+ .featuredPlaces2 a{
+    text-decoration: none;
+ }
+ .featuredPlaces2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 700px;
+    max-width: 1220px;
+    margin: 0 auto;
+ } 
+ 
+ .featuredPlaces2 div{
+    width: 519px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top: 55px;
+ }
+ .featuredPlaces2 #title2{
+    margin-bottom: 85px;
+    Font-size: 30px;
+    Line-height: 40px;
+ }
+ .featuredPlaces2 #information2 {
+     margin-bottom: 58px;
+     Font-size: 16px;
+    Line-height: 24px;
+ }
+ .featuredPlaces2 .pic2 {
+     width: 612px;
+     height: 408px;
+ }
